@@ -1,0 +1,12 @@
+.board::-webkit-scrollbar {
+	width: 12px;
+}
+
+.board::-webkit-scrollbar-track {
+	@apply bg-neutral-900;
+}
+
+.board::-webkit-scrollbar-thumb {
+	border-radius: 5px;
+	@apply border border-neutral-700 bg-neutral-800;
+}
